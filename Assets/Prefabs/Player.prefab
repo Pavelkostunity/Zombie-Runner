@@ -182,7 +182,6 @@ GameObject:
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
   - component: {fileID: 4825529089495574091}
-  - component: {fileID: 6321636375710808514}
   - component: {fileID: 3104027358066126317}
   m_Layer: 0
   m_Name: Player
@@ -331,23 +330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitpoints: 100
---- !u!114 &6321636375710808514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dca57d5d37dd4ee4696e833ff32d52f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FPSCamera: {fileID: 2000000}
-  zoomedOutFOV: 60
-  zoomedInFOV: 20
-  zoomedoutSensitivity: 2
-  zoomedinSensitivity: 0.5
 --- !u!114 &3104027358066126317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,6 +465,24 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 6245586416546623171, guid: ada2587319194f542957a8c2ae277cb9, type: 3}
   m_PrefabInstance: {fileID: 1422961871}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5661122755168592929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2337074159723837257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca57d5d37dd4ee4696e833ff32d52f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FPSCamera: {fileID: 2000000}
+  fpsController: {fileID: 11400004}
+  zoomedOutFOV: 60
+  zoomedInFOV: 20
+  zoomedoutSensitivity: 2
+  zoomedinSensitivity: 0.5
 --- !u!114 &9171014084254893329
 MonoBehaviour:
   m_ObjectHideFlags: 0
