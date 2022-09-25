@@ -14,6 +14,10 @@ public class Weapon : MonoBehaviour
     [SerializeField] float timeBetweenShots = 0.5f;
 
     bool canShoot = true;
+    private void OnEnable()
+    {
+        canShoot = true;
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && canShoot == true)

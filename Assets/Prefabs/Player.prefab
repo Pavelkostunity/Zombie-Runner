@@ -352,6 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 268413134666941011}
+  - component: {fileID: 5173700540950930987}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -376,6 +377,18 @@ Transform:
   m_Father: {fileID: 400000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5173700540950930987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546062407624796474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4d8282d757c1b4897998736bb77f9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1422961871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -501,6 +514,7 @@ MonoBehaviour:
   muzzleFlash: {fileID: 6245586415142601228}
   hitEffect: {fileID: 3516340251777462196, guid: 59ce3c5208d8c914ca33b4930e0bd206, type: 3}
   ammoSlot: {fileID: 3104027358066126317}
+  timeBetweenShots: 0.5
 --- !u!1001 &1367757468073491830
 PrefabInstance:
   m_ObjectHideFlags: 0
