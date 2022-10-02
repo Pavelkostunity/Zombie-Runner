@@ -19,6 +19,7 @@ public class WeaponSwitcher : MonoBehaviour
         if (previousWeapon != currentWeapon)
         {
             SetWeaponActive();
+
         }
     }
 

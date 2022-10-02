@@ -34,5 +34,11 @@ public class WeaponZoom : MonoBehaviour
             }
         }
     }
-
+    private void OnDisable()
+    {
+        zoomedInTooggle = false;
+        FPSCamera.fieldOfView = zoomedOutFOV;
+        fpsController.mouseLook.XSensitivity = zoomedoutSensitivity;
+        fpsController.mouseLook.YSensitivity = zoomedoutSensitivity;
+    }
 }
